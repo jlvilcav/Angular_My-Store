@@ -13,8 +13,8 @@ export class AppComponent {
   btnDisabled = true;
 
   person = {
-    name: 'Jorge',
-    lastName: 'Vilca',
+    name: 'jorge',
+    lastName: 'vilca',
     age: 34,
     avatar:'https://source.unsplash.com/random'
   }
