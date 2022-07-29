@@ -4,3 +4,43 @@
   overflow: auto;
   background-color: #f00;
 }
+.products--grids {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 15px; */
+  /* div {
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h2, p {
+      margin: 0;
+    }
+  } */
+}
+.products--grids img {
+  width: 100%;
+      border-radius: 10px;
+}
+.products--grids h2, p {
+  margin: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .products--grids {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+  }
+
+}
+
+@media screen and (min-width: 30em) {
+  .products--grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+
+}

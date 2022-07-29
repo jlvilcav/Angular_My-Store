@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Product } from './product.model';
-
+// import scss from '@angular/scss';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
