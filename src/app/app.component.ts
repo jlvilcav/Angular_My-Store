@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-store';
+  name = 'Jorge Vilca'; //debe ser publico, si no se declara se reconoce coomo publico
+  age = 34;
+  img = 'https://source.unsplash.com/random';
 }
