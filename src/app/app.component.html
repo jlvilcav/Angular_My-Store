@@ -5,6 +5,11 @@
 <button (click)="increaseAge()">Age ++</button>
 <button (click)="decreaseAge()">Age --</button>
 
+<div class="box" (scroll)="onScroll($event)">
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis placeat enim at atque amet aliquam aspernatur odio voluptatum est possimus distinctio illo, neque nostrum dolorem ab! Itaque tempore magnam ipsa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis placeat enim at atque amet aliquam aspernatur odio voluptatum est possimus distinctio illo, neque nostrum dolorem ab! Itaque tempore magnam ipsa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis placeat enim at atque amet aliquam aspernatur odio voluptatum est possimus distinctio illo, neque nostrum dolorem ab! Itaque tempore magnam ipsa?</p>
+</div>
+<p>Nombre: {{person.name}}</p>
+<input type="text" [value]="person.name" (keyup)="changeName($event)">
 <hr/>
 <h1>Propiedades</h1>
 <button [disabled]="btnDisabled">Enviar</button>
