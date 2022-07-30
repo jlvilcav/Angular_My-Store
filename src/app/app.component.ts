@@ -7,6 +7,9 @@ import { Product } from './product.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  widthImg = 10;
+
   name = 'Jorge Vilca'; //debe ser publico, si no se declara se reconoce coomo publico
   age = 34;
   img = 'https://source.unsplash.com/random';
