@@ -15,6 +15,12 @@ export class AppComponent {
   img = 'https://source.unsplash.com/random';
   btnDisabled = true;
 
+  register = {
+    name: '',
+    email: '',
+    password: ''
+  }
+
   person = {
     name: 'jorge',
     lastName: 'vilca',
@@ -93,5 +99,9 @@ export class AppComponent {
 
   deleteName(index: number){
     this.names.splice(index, 1);
+  }
+
+  onRegister() {
+    console.log(this.register);
   }
 }
